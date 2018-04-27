@@ -7,11 +7,7 @@ hexo clean  >/dev/null 2>&1
 echo "3. Hexo Building"
 hexo g >/dev/null 2>&1
 echo "4. Hexo Launching"
-hexo s  >/dev/null 2>&1
 echo ====================
+echo 可登陆 http://localhost:4000/ 进行本地预览 
 echo
-echo ================================
-echo 登陆 http://localhost:4000/ 预览
-echo ================================ 
-echo
-open http://localhost:4000/
+hexo s  >/dev/null 2>&1
