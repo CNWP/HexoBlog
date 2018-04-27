@@ -1,4 +1,7 @@
 clear
+echo "配置账户名和邮箱"
+git config --local user.name W.P
+git config --local user.email PendyWan@163.com
 echo ====================
 echo "1. Npm  Installing"
 npm install >/dev/null 2>&1
